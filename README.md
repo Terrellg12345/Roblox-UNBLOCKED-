@@ -5,3 +5,7 @@ https://robloxgifthubunblock.com
   "task": "Get repository details",
   "userQuery": "What is this repository about?"
 }
+{
+  "repo": "slurp227/Roblox-UNBLOCKED-",
+  "path": ""
+}
