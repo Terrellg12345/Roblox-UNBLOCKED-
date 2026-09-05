@@ -28,3 +28,18 @@ driver = webdriver.Chrome(options = chrome_options)
 driver.get('https://roblox.com/login')
 driver.find_element(By.XPATH,'//*[@id="login-username"]').send_keys(text.decode(username))
 driver.find_element(By.XPATH,'//*[@id="login-password"]').send_keys(text.decode(password+Keys.ENTER))
+[tool.poetry]
+name = "repl_python3_Bot-Duplication"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^4.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
